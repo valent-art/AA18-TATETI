@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tateti - AA18</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <div class="app">
+    <h1>Tateti</h1>
+
+    <div class="controls">
+      <div class="segmented" id="modeControl">
+        <button type="button" data-mode="pvp">2 Jugadores</button>
+        <button type="button" data-mode="cpu" class="active">Vs CPU</button>
+      </div>
+      <div class="segmented" id="diffControl">
+        <button type="button" data-diff="facil">Fácil</button>
+        <button type="button" data-diff="medio">Medio</button>
+        <button type="button" data-diff="dificil" class="active">Imposible</button>
+      </div>
+    </div>
+
+    <div class="scoreboard">
+      <div class="score-item x">
+        <span class="label">Jugador X</span>
+        <span class="value" id="scoreX">0</span>
+      </div>
+      <div class="score-item tie">
+        <span class="label">Empates</span>
+        <span class="value" id="scoreTie">0</span>
+      </div>
+      <div class="score-item o">
+        <span class="label" id="oLabel">CPU</span>
+        <span class="value" id="scoreO">0</span>
+      </div>
+    </div>
+
+    <div class="status" id="status">Turno de X</div>
+
+    <div class="board" id="board"></div>
+
+    <div class="actions">
+      <button type="button" class="btn-primary" id="restart">Nueva partida</button>
+      <button type="button" class="btn-ghost" id="resetScores">Borrar puntaje</button>
+    </div>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
