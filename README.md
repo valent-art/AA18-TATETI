@@ -1,6 +1,6 @@
 # AA18 - Tateti
 
-Juego clásico de Tateti (Tres en línea) hecho con HTML, CSS y JavaScript puro.
+Juego clásico de Tateti hecho con HTML, CSS y JavaScript.
 
 ## Características
 
@@ -12,11 +12,10 @@ Juego clásico de Tateti (Tres en línea) hecho con HTML, CSS y JavaScript puro.
 
 ## Cómo jugar
 
-1. Abrí `index.html` en tu navegador, o usá la extensión **Live Server** en VS Code.
-2. Elegí el modo de juego: **2 Jugadores** o **Vs CPU**.
-3. Si elegís CPU, podés cambiar la dificultad.
-4. Hacé clic en cualquier casilla libre para poner tu ficha.
-5. El primero en alinear 3 en línea (fila, columna o diagonal) gana.
+1. Elegí el modo de juego: **2 Jugadores** o **Vs CPU**.
+2. Si elegís CPU, podés cambiar la dificultad.
+3. Hacé clic en cualquier casilla libre para poner tu ficha.
+4. El primero en alinear 3 en línea (fila, columna o diagonal) gana.
 
 ## Tecnologías
 
@@ -24,4 +23,4 @@ Juego clásico de Tateti (Tres en línea) hecho con HTML, CSS y JavaScript puro.
 - CSS3 (Grid, Flexbox, animaciones)
 - JavaScript (ES6, algoritmo Minimax para la IA)
 
-## Estructura
+
